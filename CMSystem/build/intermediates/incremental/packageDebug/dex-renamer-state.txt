@@ -1,0 +1,7 @@
+#Mon Oct 09 14:27:58 GST 2017
+base.0=C\:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_42faa43aad8443d4316da2cef4cc41a7196c5326
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1c4cd5d875808790a68c9f2adef3f2d0fd4bdce4\\classes.dex
+base.1=C\:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1c4cd5d875808790a68c9f2adef3f2d0fd4bdce4
+file.0=C\:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_42faa43aad8443d4316da2cef4cc41a7196c5326\\classes.dex

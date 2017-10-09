@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45DCF1"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/mt0111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Requested Services:"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+    <ListView
+        android:id="@+id/listmyreqsts"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_alignLeft="@+id/mt0111"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/mt0111" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/mtxt_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listmyreqsts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp"
+        android:textColor="#fff"
+        android:text="Current status"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp" />
+
+</RelativeLayout>

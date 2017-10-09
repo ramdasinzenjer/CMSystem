@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="#45DCF1"
+    android:padding="10dp">
+    
+ <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" 
+            android:padding="10dp">
+            <TextView 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Here"
+                android:textSize="20dp"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:gravity="center_horizontal"
+                android:textStyle="bold|italic"/>
+
+          <EditText
+                android:id="@+id/et_nam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:inputType="textPersonName"
+                android:padding="10dp" >
+
+            </EditText>
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email id"
+                android:textColorHint="#ffffff"
+                android:layout_marginTop="10dp"
+                 android:textColor="#ffffff"
+                android:inputType="textEmailAddress" 
+                android:padding="10dp">
+
+            </EditText>
+            <EditText
+                android:id="@+id/et_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                 android:textColor="#ffffff"
+                 android:textColorHint="#ffffff"
+                android:hint="Phone number"
+                android:layout_marginTop="10dp"
+                android:inputType="phone" 
+                android:padding="10dp">
+
+            </EditText>
+              <EditText
+                android:id="@+id/et_nat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Nationality"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:padding="10dp" >
+            </EditText>
+
+         <RadioGroup
+             android:id="@+id/radioGroup1Usr"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:orientation="horizontal"
+             android:padding="10dp" >
+		
+		    <RadioButton
+		        android:id="@+id/radio0usr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:checked="true"
+		        android:text="Male" />
+		
+		    <RadioButton
+		        android:id="@+id/radio1usr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Female" />
+		
+		    <RadioButton
+		        android:id="@+id/radio2usr"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Transgender" />
+		</RadioGroup>
+            <EditText
+                android:id="@+id/et_addr"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                 android:textColor="#ffffff"
+                 android:textColorHint="#ffffff"
+                android:ems="10"
+                android:hint="Postal Address"
+                android:layout_marginTop="10dp"
+                android:inputType="textPostalAddress"
+                android:padding="10dp" >
+
+            </EditText>
+            
+          <EditText
+                android:id="@+id/et_lid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="License Id"
+                 android:textColor="#ffffff"
+                 android:textColorHint="#ffffff"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:padding="10dp" >
+
+            </EditText>
+          <EditText
+                android:id="@+id/et_vnum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                 android:textColor="#ffffff"
+                 android:textColorHint="#ffffff"
+                android:hint="Vehicle Number"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:padding="10dp" >
+
+            </EditText>
+
+          <EditText
+              android:id="@+id/et_ps"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:ems="10"
+              android:hint="Password"
+              android:inputType="textPassword"
+              android:textColorHint="#ffffff"
+              android:textColor="#ffffff"
+              android:padding="10dp" />
+            
+          
+             
+             <Button 
+                 android:id="@+id/button_register"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="right"
+                 android:text="Register"
+                  android:textColor="#ffffff"
+                  android:textStyle="bold"
+                  android:padding="10dp"
+                  android:layout_marginTop="10dp"
+                 />
+             
+            
+        </LinearLayout>
+    </ScrollView>
+    
+</RelativeLayout>

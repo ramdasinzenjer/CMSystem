@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="#45DCF1"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edit_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner_typ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_phone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:inputType="textPassword" 
+        android:textSize="20dp">
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinner_typ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edit_phone"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/edit_phone"
+        android:layout_marginTop="204dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:src="@drawable/cargo_icon" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/edit_pass"
+        android:layout_below="@+id/edit_pass"
+        android:layout_marginTop="25dp"
+        android:text="LOGIN"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:padding="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:padding="10dp"
+        android:text="New User? Click here to SignUp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

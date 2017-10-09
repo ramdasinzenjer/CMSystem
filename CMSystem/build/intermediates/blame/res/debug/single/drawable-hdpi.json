@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cargo_splash.png",
+        "source": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\cargo_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lightblue_bg.png",
+        "source": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\lightblue_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cargo_bg.png",
+        "source": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\cargo_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\projects_ramm\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\road_frgt.png",
+        "source": "F:\\projects_ramm\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\road_frgt.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\road_frgt.png",
+        "source": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\road_frgt.png"
+    },
+    {
+        "merged": "F:\\projects_ramm\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lightblue_bg.png",
+        "source": "F:\\projects_ramm\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\lightblue_bg.png"
+    },
+    {
+        "merged": "F:\\projects_ramm\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cargo_splash.png",
+        "source": "F:\\projects_ramm\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\cargo_splash.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cargo_icon.png",
+        "source": "C:\\Users\\user\\Desktop\\Project\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\cargo_icon.png"
+    },
+    {
+        "merged": "F:\\projects_ramm\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cargo_bg.png",
+        "source": "F:\\projects_ramm\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\cargo_bg.png"
+    },
+    {
+        "merged": "F:\\projects_ramm\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\cargo_icon.png",
+        "source": "F:\\projects_ramm\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\cargo_icon.png"
+    },
+    {
+        "merged": "F:\\projects_ramm\\CMSystem\\CMSystem\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "F:\\projects_ramm\\CMSystem\\CMSystem\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

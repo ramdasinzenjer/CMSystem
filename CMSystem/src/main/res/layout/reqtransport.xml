@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45DCF1" >
+
+    <TextView
+        android:id="@+id/text_agencynam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Driver Id" />
+
+    <EditText
+        android:id="@+id/editText_addr"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editText_weight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:hint="Destination Address"
+        android:inputType="textPostalAddress" />
+
+    <Spinner
+        android:id="@+id/spinnerText_typ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_prdtnam"
+        android:layout_alignRight="@+id/editText_prdtnam"
+        android:layout_below="@+id/editText_prdtnam"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Type of Cargo" />
+
+    <EditText
+        android:id="@+id/editText_weight"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText_height"
+        android:layout_alignBottom="@+id/editText_height"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:ems="10"
+        android:hint="Weight in Kg"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editText_prdtnam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_addr"
+        android:layout_below="@+id/text_agencynam"
+        android:layout_marginTop="57dp"
+        android:ems="10"
+        android:hint="Product Name" />
+
+    <EditText
+        android:id="@+id/editText_height"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerText_typ"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/editText_weight"
+        android:ems="10"
+        android:hint="Height in cm"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkBoxSharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_addr"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Sharing" />
+
+    <Button
+        android:id="@+id/button_proceed"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBoxSharing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:text="Proceed Request" />
+
+</RelativeLayout>

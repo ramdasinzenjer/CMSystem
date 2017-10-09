@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMSystem</string>
+    <string-array name="type">
+        <item>Select Type</item>
+        <item>Driver</item>
+        <item>User</item>
+	</string-array>
+
+    <string-array name="cargo_type">
+        <item>Glass</item>
+        <item>Metal</item>
+        <item>Plastic</item>
+        <item>Medicine</item>
+        <item>Liquid</item>
+        <item>Chemical</item>
+	</string-array>
+	
+</resources>

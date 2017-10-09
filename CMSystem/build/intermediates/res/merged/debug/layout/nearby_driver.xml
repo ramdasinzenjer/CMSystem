@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:padding="10dp"
+    android:background="#45DCF1"
+     >    
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >	    
+	    
+	    <Button
+	        android:id="@+id/btn_find"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_toRightOf="@+id/btcurrent"
+	        android:padding="10dp"
+	        android:text="Find"
+	        android:textColor="#fff"
+	        android:textStyle="bold|italic" />
+
+	    <Button
+	        android:id="@+id/btcurrent"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:background="@android:drawable/ic_menu_mapmode" />
+	    
+    </RelativeLayout>    
+
+    <fragment 
+		android:id="@+id/map"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		class="com.google.android.gms.maps.SupportMapFragment" />
+
+</LinearLayout>

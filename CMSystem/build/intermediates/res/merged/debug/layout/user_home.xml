@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45DCF1"
+    android:padding="10dp" >
+
+    <Button
+        android:id="@+id/btf_profdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btf_nearbydrivers"
+        android:layout_alignRight="@+id/btf_nearbydrivers"
+        android:layout_below="@+id/btf_nearbydrivers"
+        android:layout_marginTop="34dp"
+        android:padding="10dp"
+        android:text="Profile View"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgvvv"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/road_frgt" />
+
+    <Button
+        android:id="@+id/btf_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btf_profdetails"
+        android:layout_alignRight="@+id/btf_profdetails"
+        android:layout_below="@+id/btf_profdetails"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="Service Status"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btf_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btf_status"
+        android:layout_alignRight="@+id/btf_status"
+        android:layout_below="@+id/btf_status"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btf_nearbydrivers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgvvv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:padding="10dp"
+        android:text="Find Nearby Drivers"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
