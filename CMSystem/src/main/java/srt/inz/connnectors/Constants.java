@@ -8,7 +8,7 @@ public interface Constants {
     String REGISTER_MESSAGE="Register in...";
 
     //Urls
-    String BASE_URL="http://192.168.43.146/cargo_serv/";
+    String BASE_URL="https://ammonvasili.000webhostapp.com/";
     String DRIVER_REGISTER_URL=BASE_URL+"cargo_dregister.php?";
     String USER_REGISTER_URL=BASE_URL+"cargo_uregister.php?";
     String LOGIN_URL=BASE_URL+"cago_login.php?";
